@@ -9,9 +9,11 @@ A = float(input('If function is polynomial, enter 1: '))
 if A==1:
     a1 = float(input('Enter number of terms in function: '))
     if a1==1:
-        b1 = float(input('Enter coefficient of a: '))
-        b2 = float(input('Enter coefficient of b: '))
-        b3 = float(input('Enter coefficient of a: '))
+        b1 = float(input('Enter leading coefficient: '))
+    elif a1==2:  
+        b1 = float(input('Enter coefficient of b: '))
+        b2 = float(input('Enter coefficient of a: '))
+    elif a1==3:
 
 print('CLOSED INTERVAL')
 b = float(input('Smallest X-value in interval'))
